@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:url('C:/Users/shale/OneDrive/שולחן העבודה/proyects/Proyect3/images/1.jpg');
+    background-repeat: no-repeat;
+    background-position-x: center;   
+    background-color: black;
+}
+/* nav-main */
+
+.main-nav{
+    background-color: black;
+    font-size: 35px;
+    text-align: center;
+    height: 55px;
+    width: 100%;
+    height: 100%;
+}
+.list-link{
+    text-decoration-line: none;
+    font-size: 20px;  
+    color:orange ;  
+    border-left: gold 2px solid;
+    border-right: gold 2px solid;
+    padding: 15px;
+}
+.list-item{
+    display: inline;
+    padding: 40px;
+    line-height: 55px;;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+w
+a:visited{
+    color: rgba(255, 166, 0, 0.479);
+}
+
+a:active{
+    color: white;
+}
+a:hover{
+    background-color: tomato;
+}
+.image-logo{
+    float: right;
+    padding-top: 10px;
+    padding-right: 20px;
+
+
+}   
+/* big header mu argman */
+
+.big-header-for-mu-div{
+   text-align: center;
+   padding-top: 350px;
+   font-size: 40px;
+   color: blueviolet;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* main-page */  
+.wr-appear-main{
+    padding-left: 300px;
+}
+
+.main-page{
+    background-image: url('C:/Users/shale/OneDrive/שולחן העבודה/proyects/Proyect3/images/5.jpg');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 500px;
+    padding-bottom: 50px ;    
+}
+.header-welcome{
+    text-align: center; 
+}
+.f-header-welcome{
+    padding-top: 550px;
+    color: yellowgreen;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about-mu-general{
+    font-size: 25px;
+    padding-bottom: 20px;
+    color: tomato;
+}
+.p-aboutmu{
+    text-align: center;;
+    padding-top: 50px;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.aboutmu{
+     padding: 20px;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: orange;
+}
+.video-mu{
+    padding-top: 50px;
+}
+/* updates */
+.announcements-updates-div{
+    text-align: center;
+    color: white;
+    padding-top: 120px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 300px;
+}
+.announcements-updates-h{ 
+    color: crimson;
+}
+.announcements-updates-p{
+    padding-top: 30px;
+}
+.announcements-updates-p:hover{
+    color: turquoise;
+}
+
+/* side-right */
+.server-crew-head{
+    color: goldenrod;
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    padding-right: 50px;
+    padding-top: 60px;
+}
+.side-right{
+    float: right;
+    padding-top: 530px;
+    padding-right: 100px;
+    padding-bottom: 200px;
+
+}
+/* name-role  */
+.head-name{
+   padding-top: 40px;
+   color: tomato;
+   font-size: 20px;
+}
+.list-name-div{
+    padding-top: 30px;
+   list-style-type: none;
+}
+
+.list-name{
+    color: white;
+    padding-top: 30px;
+}
+.list-name1{
+   color: white;
+
+}
+.name-list2{
+   padding-left: 80px;
+}
+.wrappear-name-role{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+/* left-side */
+.login-div-wrappear{
+    border-right: 5px solid black;
+    width: 300px;
+    height: 320px;
+}
+.left-side{
+    float: left;
+    padding-top: 500px;
+    padding-left: 20px;
+}
+.login{
+    color: goldenrod;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    padding-top: 35px;
+}
+.wrappear-input{
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.name-div{
+    padding-top: 15px;
+}
+.name-user{
+    width: 220px;
+    height: 32px;
+}
+.password-div{
+    padding-top: 12px;
+}
+.password-user{
+    width: 220px;
+    height: 32px;
+}
+.forgot-password-div{
+  padding-top: 15px;
+}
+.forgot-password{
+    font-size: 15px;
+}
+
+.submit-button-login{
+    padding-top: 15px;
+}
+.submit-user{
+    width: 224px;
+    height: 32px;
+    background: -webkit-linear-gradient( left, cyan  , #9f01ea ,cyan );
+}
+.not-user-div{
+    padding-top: 15px;
+    font-size: 13px;
+}
+
+
+/*  Top Resets */
+
+.top-resets{
+    color: goldenrod;
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    padding-right: 50px;
+    padding-top: 40px;
+}
+.number-list{
+    padding-right: 70px;
+}
+
+/* Register */
+.register-head{
+    color: goldenrod;
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+.inputs-div{
+    padding-top: 10px;
+}
+.mail{
+   width: 220px;
+   height: 32px;
+}
+.name{
+    width: 220px;
+    height: 32px;
+ } 
+.password{
+    width: 220px;
+    height: 32px;
+ }
+ .input-email{
+     padding-top: 15px;
+}
+.input-name-div{
+    padding-top: 15px;
+}
+.input-password-div{
+    padding-top: 15px;
+}
+.have-account{
+    font-size: 13px;
+    padding-left: 15px;
+}
+.have-account-div{
+    padding-top: 15px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1400px){
+    .main-nav{
+        width: 1100px;
+    } 
+    .image-logo{
+      width: 15px;
+    
+    }
+    .main-page{
+        width: 1100px;
+    }
+    .big-header-for-mu-div{
+        padding-left: 30px;
+        font-size: 35px;
+         width: 1000px;   
+    }
+
+
+    }
